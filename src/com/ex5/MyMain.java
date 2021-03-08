@@ -1,7 +1,6 @@
 package com.ex5;
 
-import java.util.ArrayList;
-import java.util.Collections;
+import java.util.*;
 
 public class MyMain {
 //generic programming
@@ -12,8 +11,8 @@ public class MyMain {
 //    public static int getMiddle(int[] a) {
 //        return a[a.length / 2];
 //    }//overload
-    //override
-
+    //override   refence
+//
     public static <T> T getMiddle(T[] a) {
         return a[a.length / 2];
     }
@@ -47,7 +46,8 @@ public class MyMain {
 
         System.out.println(list);
 
-        ArrayList<Integer> list2 = new ArrayList<>();
+        List<Integer> list2 = new LinkedList<>();
+//sequence
 
 
 
